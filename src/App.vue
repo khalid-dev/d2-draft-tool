@@ -57,7 +57,7 @@
           single-line
           v-model="query"
           color="white"
-          label="teamfight>2 waveclear>1"
+          label="FarmingSupport teamfight>2 waveclear>1"
       ></v-text-field>
       <v-btn icon @click.stop="drawerRight = !drawerRight">
         <v-icon>{{drawerRight ? 'keyboard_arrow_right' : 'keyboard_arrow_left'}}</v-icon>
@@ -190,7 +190,7 @@
         { text: 'Split Push', value: 'splitPush'},
       ],
       pickOrderToggle: 0, // 0 = 1st pick, 1 = 2nd pick
-      enemyTeamName: 'VP',
+      enemyTeamName: '',
       query: '',
       teamCompositionHeaders: [
         {
