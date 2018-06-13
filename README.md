@@ -1,6 +1,6 @@
 # d2-draft-tool
 A single-page application designed to provide feedback on a Dota 2 draft, whether alongside the draft real time, or with the intent of strategizing outside the game itself. 
-## Uploading replays
+## Uploading Replays
 * The user should put the replays they wish to use in the scrim_replays folder, then run the Main.java file in src/main.
 * Currently using replays from the China Dota 2 Supermajor to demo the tool.
 ## Real Time Drafting
@@ -14,5 +14,6 @@ A single-page application designed to provide feedback on a Dota 2 draft, whethe
 ## Predicting Enemy Picks
 * The user can select the team they are drafting against.
 * After every enemy pick, all drafts of the chosen enemy team are parsed and a list of potential picks, accompanied by their corresponding probability, is generated based on previous trends in the team's drafts.
-
+## Originally Uploaded on Gitlab
+* https://gitlab.com/khusain/d2-draft-tool , see link for detailed commit history.
 
