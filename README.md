@@ -15,7 +15,7 @@ A single-page application designed to provide feedback on a Dota 2 draft, whethe
 * The user can select the team they are drafting against.
 * After every enemy pick, all drafts of the chosen enemy team are parsed and a list of potential picks, accompanied by their corresponding probability, is generated based on previous trends in the team's drafts.
 ## Credits
-* Frontend done by Evan Carr-Hall.
+* Frontend done by [Evan Carr-Hall.](https://github.com/evancarrhall)
 * Replay parsing and potentialEnemyPicks algorithm done by Khalid Husain.
 * Special thanks to the [Clarity](https://github.com/skadistats/clarity) team for their replay parsing tool.
 * https://gitlab.com/khusain/d2-draft-tool , see link for detailed commit history.
